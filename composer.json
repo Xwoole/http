@@ -1,0 +1,26 @@
+{
+    "name": "xwoole/http",
+    "version": "1.0.0",
+    "description": "Openswoole extended HTTP server",
+    "type": "lib",
+    "require": {
+        "psr/http-message": "2.0.x-dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "7.2.x-dev",
+        "openswoole/ide-helper": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xwoole\\Http\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohachi",
+            "email": "hachiassali15@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
