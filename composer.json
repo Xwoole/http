@@ -3,9 +3,6 @@
     "version": "1.0.0",
     "description": "Openswoole extended HTTP server",
     "type": "lib",
-    "require": {
-        "psr/http-message": "2.0.x-dev"
-    },
     "require-dev": {
         "symfony/var-dumper": "7.2.x-dev",
         "openswoole/ide-helper": "dev-master"
@@ -22,5 +19,9 @@
             "email": "hachiassali15@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {
+        "xwoole/session": "dev-main",
+        "xwoole/router": "dev-main"
+    }
 }

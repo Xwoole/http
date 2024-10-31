@@ -4,35 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "597361f06f32b85dcd52a5c23590a762",
+    "content-hash": "bc2a6254819da016ff636ecc536621d9",
     "packages": [
         {
-            "name": "psr/http-message",
-            "version": "dev-master",
+            "name": "xwoole/router",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-fig/http-message.git",
-                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71"
+                "url": "https://github.com/Xwoole/router.git",
+                "reference": "ec2ff58548c4062a2ea975788a9033477a72cbaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
-                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "url": "https://api.github.com/repos/Xwoole/router/zipball/ec2ff58548c4062a2ea975788a9033477a72cbaf",
+                "reference": "ec2ff58548c4062a2ea975788a9033477a72cbaf",
                 "shasum": ""
             },
-            "require": {
-                "php": "^7.2 || ^8.0"
+            "require-dev": {
+                "openswoole/ide-helper": "dev-master",
+                "symfony/var-dumper": "7.2.x-dev"
             },
             "default-branch": true,
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
+            "type": "lib",
             "autoload": {
                 "psr-4": {
-                    "Psr\\Http\\Message\\": "src/"
+                    "Xwoole\\Router\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -41,24 +37,59 @@
             ],
             "authors": [
                 {
-                    "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "name": "mohachi",
+                    "email": "hachiassali15@gmail.com"
                 }
             ],
-            "description": "Common interface for HTTP messages",
-            "homepage": "https://github.com/php-fig/http-message",
-            "keywords": [
-                "http",
-                "http-message",
-                "psr",
-                "psr-7",
-                "request",
-                "response"
-            ],
+            "description": "Xwoole HTTP router library for PHP Openswoole.",
             "support": {
-                "source": "https://github.com/php-fig/http-message/tree/2.0"
+                "issues": "https://github.com/Xwoole/router/issues",
+                "source": "https://github.com/Xwoole/router/tree/main"
             },
-            "time": "2023-04-04T09:54:51+00:00"
+            "time": "2024-10-31T13:28:10+00:00"
+        },
+        {
+            "name": "xwoole/session",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Xwoole/session.git",
+                "reference": "72f7b4f2d4e76acbeee4f0ecf5ce750d580f667f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Xwoole/session/zipball/72f7b4f2d4e76acbeee4f0ecf5ce750d580f667f",
+                "reference": "72f7b4f2d4e76acbeee4f0ecf5ce750d580f667f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "openswoole/ide-helper": "dev-master",
+                "symfony/var-dumper": "7.2.x-dev",
+                "ukko/phpredis-phpdoc": "dev-master"
+            },
+            "default-branch": true,
+            "type": "lib",
+            "autoload": {
+                "psr-4": {
+                    "Xwoole\\Session\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mohachi",
+                    "email": "hachiassali15@gmail.com"
+                }
+            ],
+            "description": "Xwoole session library for PHP.",
+            "support": {
+                "issues": "https://github.com/Xwoole/session/issues",
+                "source": "https://github.com/Xwoole/session/tree/main"
+            },
+            "time": "2024-10-18T15:26:21+00:00"
         }
     ],
     "packages-dev": [
@@ -270,13 +301,14 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "psr/http-message": 20,
+        "openswoole/ide-helper": 20,
         "symfony/var-dumper": 20,
-        "openswoole/ide-helper": 20
+        "xwoole/router": 20,
+        "xwoole/session": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
