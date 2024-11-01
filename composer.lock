@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Xwoole/router.git",
-                "reference": "ec2ff58548c4062a2ea975788a9033477a72cbaf"
+                "reference": "401f2a552eddabb6ace8987ea2024e87376e3792"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Xwoole/router/zipball/ec2ff58548c4062a2ea975788a9033477a72cbaf",
-                "reference": "ec2ff58548c4062a2ea975788a9033477a72cbaf",
+                "url": "https://api.github.com/repos/Xwoole/router/zipball/401f2a552eddabb6ace8987ea2024e87376e3792",
+                "reference": "401f2a552eddabb6ace8987ea2024e87376e3792",
                 "shasum": ""
             },
             "require-dev": {
@@ -46,7 +46,7 @@
                 "issues": "https://github.com/Xwoole/router/issues",
                 "source": "https://github.com/Xwoole/router/tree/main"
             },
-            "time": "2024-10-31T13:28:10+00:00"
+            "time": "2024-11-01T21:45:16+00:00"
         },
         {
             "name": "xwoole/session",
@@ -99,12 +99,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openswoole/ide-helper.git",
-                "reference": "8c4de5fda9fec1b00c549a9f688163733199e712"
+                "reference": "563b926c3474b26c451424992a36cea55ff69c3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openswoole/ide-helper/zipball/8c4de5fda9fec1b00c549a9f688163733199e712",
-                "reference": "8c4de5fda9fec1b00c549a9f688163733199e712",
+                "url": "https://api.github.com/repos/openswoole/ide-helper/zipball/563b926c3474b26c451424992a36cea55ff69c3f",
+                "reference": "563b926c3474b26c451424992a36cea55ff69c3f",
                 "shasum": ""
             },
             "require": {
@@ -129,9 +129,9 @@
             "description": "IDE helper for OpenSwoole.",
             "support": {
                 "issues": "https://github.com/openswoole/ide-helper/issues",
-                "source": "https://github.com/openswoole/ide-helper/tree/22.1.5"
+                "source": "https://github.com/openswoole/ide-helper/tree/master"
             },
-            "time": "2023-12-10T18:56:30+00:00"
+            "time": "2024-09-08T21:58:49+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -139,16 +139,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "8740a072b86292957feb42703edde77fcfca84fb"
+                "reference": "2369cb908b33d7b7518cce042615de430142497f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/8740a072b86292957feb42703edde77fcfca84fb",
-                "reference": "8740a072b86292957feb42703edde77fcfca84fb",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2369cb908b33d7b7518cce042615de430142497f",
+                "reference": "2369cb908b33d7b7518cce042615de430142497f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2"
             },
             "provide": {
                 "ext-mbstring": "*"
@@ -212,7 +212,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-20T08:18:00+00:00"
+            "time": "2024-09-10T14:38:51+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -220,12 +220,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "122ba59267fc82caa8f1f509332d4b94a223013b"
+                "reference": "b86ce1b5bb196cfb3796856979167271d3989c7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/122ba59267fc82caa8f1f509332d4b94a223013b",
-                "reference": "122ba59267fc82caa8f1f509332d4b94a223013b",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/b86ce1b5bb196cfb3796856979167271d3989c7c",
+                "reference": "b86ce1b5bb196cfb3796856979167271d3989c7c",
                 "shasum": ""
             },
             "require": {
@@ -241,7 +241,7 @@
                 "symfony/http-kernel": "^6.4|^7.0",
                 "symfony/process": "^6.4|^7.0",
                 "symfony/uid": "^6.4|^7.0",
-                "twig/twig": "^3.0.4"
+                "twig/twig": "^3.12"
             },
             "bin": [
                 "Resources/bin/var-dump-server"
@@ -295,7 +295,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-13T14:29:53+00:00"
+            "time": "2024-10-23T08:11:15+00:00"
         }
     ],
     "aliases": [],
