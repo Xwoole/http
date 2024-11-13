@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Xwoole/router.git",
-                "reference": "401f2a552eddabb6ace8987ea2024e87376e3792"
+                "reference": "365045666ce211568c65dc0402592b62953dbf42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Xwoole/router/zipball/401f2a552eddabb6ace8987ea2024e87376e3792",
-                "reference": "401f2a552eddabb6ace8987ea2024e87376e3792",
+                "url": "https://api.github.com/repos/Xwoole/router/zipball/365045666ce211568c65dc0402592b62953dbf42",
+                "reference": "365045666ce211568c65dc0402592b62953dbf42",
                 "shasum": ""
             },
             "require-dev": {
@@ -46,7 +46,7 @@
                 "issues": "https://github.com/Xwoole/router/issues",
                 "source": "https://github.com/Xwoole/router/tree/main"
             },
-            "time": "2024-11-01T21:45:16+00:00"
+            "time": "2024-11-13T11:26:05+00:00"
         },
         {
             "name": "xwoole/session",
@@ -220,12 +220,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "b86ce1b5bb196cfb3796856979167271d3989c7c"
+                "reference": "73b22e287d3248af064785992dad0ec40e5904c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/b86ce1b5bb196cfb3796856979167271d3989c7c",
-                "reference": "b86ce1b5bb196cfb3796856979167271d3989c7c",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/73b22e287d3248af064785992dad0ec40e5904c0",
+                "reference": "73b22e287d3248af064785992dad0ec40e5904c0",
                 "shasum": ""
             },
             "require": {
@@ -295,7 +295,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-10-23T08:11:15+00:00"
+            "time": "2024-11-08T15:48:14+00:00"
         }
     ],
     "aliases": [],
