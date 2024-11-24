@@ -3,11 +3,11 @@
 namespace Xwoole\Http;
 
 use OpenSwoole\Http\Server as HttpServer;
-use Xwoole\Http\Functionality\Server as FunctionalityServer;
+use Xwoole\Http\Functionality\Serving;
 
 class Server extends HttpServer
 {
-    use FunctionalityServer;
+    use Serving;
     
     
     

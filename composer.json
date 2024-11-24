@@ -1,6 +1,5 @@
 {
     "name": "xwoole/http",
-    "version": "1.0.0",
     "description": "Openswoole extended HTTP server",
     "type": "lib",
     "license": "MIT",
@@ -16,7 +15,7 @@
         }
     ],
     "require": {
-        "xwoole/session": "^1.0",
+        "xwoole/session": "^2.0",
         "xwoole/router": "^1.0"
     },
     "require-dev": {

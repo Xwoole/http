@@ -9,7 +9,7 @@ use Xwoole\Session\Identifier\OpenswooleIdentifer;
 use Xwoole\Session\Session;
 use Xwoole\Session\Storage\Contract;
 
-trait Server
+trait Serving
 {
     use Routing;
     

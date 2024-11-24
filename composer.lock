@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02aac0f1f771f4ae5f6f2e36fa05ee04",
+    "content-hash": "e910313cdf3b6cfd4ee47590b2e17c12",
     "packages": [
         {
             "name": "xwoole/router",
@@ -50,21 +50,22 @@
         },
         {
             "name": "xwoole/session",
-            "version": "v1.0.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Xwoole/session.git",
-                "reference": "c054a7c9094f2de251af981ee6e428dc7e129dda"
+                "reference": "5c1c9a091008b2ddfa68b9ec420051c98c209746"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Xwoole/session/zipball/c054a7c9094f2de251af981ee6e428dc7e129dda",
-                "reference": "c054a7c9094f2de251af981ee6e428dc7e129dda",
+                "url": "https://api.github.com/repos/Xwoole/session/zipball/5c1c9a091008b2ddfa68b9ec420051c98c209746",
+                "reference": "5c1c9a091008b2ddfa68b9ec420051c98c209746",
                 "shasum": ""
             },
             "require-dev": {
                 "openswoole/ide-helper": "^22.1",
-                "symfony/var-dumper": "^7.1"
+                "symfony/var-dumper": "^7.1",
+                "ukko/phpredis-phpdoc": "^5.0.1-beta8"
             },
             "type": "lib",
             "autoload": {
@@ -85,9 +86,9 @@
             "description": "Xwoole session library for PHP.",
             "support": {
                 "issues": "https://github.com/Xwoole/session/issues",
-                "source": "https://github.com/Xwoole/session/tree/v1.0.0"
+                "source": "https://github.com/Xwoole/session/tree/v2.0.0"
             },
-            "time": "2024-11-17T09:15:25+00:00"
+            "time": "2024-11-23T19:13:43+00:00"
         }
     ],
     "packages-dev": [
